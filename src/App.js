@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">Wedding Pim & Ellie</header>
-      <body className="App-body">
+      <section className="App-body">
         <p>Hello, we are Pim and Ellie.</p>
         <p>
           We will organise all the digital needs for your wedding, from sending
@@ -19,7 +19,7 @@ function App() {
           This way you can focus on your wedding while we sort all the tedious
           wedmin for you.
         </p>
-      </body>
+      </section>
       <footer className="App-footer">
         <dl>
           <div>

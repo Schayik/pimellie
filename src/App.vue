@@ -38,6 +38,7 @@ nav {
   margin-top: 2rem;
 }
 
+
 nav a.router-link-exact-active {
   color: var(--color-text);
 }

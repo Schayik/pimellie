@@ -1,8 +1,8 @@
 import requests
 
-token = "EABWxZBcoSl4sBOz88sRvkheNguf8gmkJyDZCBjXgeo2SprbRcNezZCPePdWxECbPkS4r4ZBrj7MSTKvgpEkRGCwKBkAh6qBumBWyiu5HgWZC6O6iDWqMO2YmYRpjVJjQanhpBVvST3QFLD7wWtywkKbYyvAbttZCuZAw5CREFZAbEvcIucoQtvHxT3kbZBMBIyoAjDcSNyGZCqyDxrq2eU"
+token = "<token>"
 
-phone_id = "114565751731975"
+phone_id = "<phone_id>"
 
 url = "https://graph.facebook.com/v17.0/" + phone_id + "/messages"
 

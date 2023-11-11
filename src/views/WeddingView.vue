@@ -8,21 +8,21 @@
       <h2>Days</h2>
 
       <nav>
-        <RouterLink to="#welcome">Welcome<br>Thursday, July 11</RouterLink>
-        <RouterLink to="#wedding">Wedding<br>Friday, July 12</RouterLink>
-        <RouterLink to="#day-two">Day two<br>Saturday, July 13</RouterLink>
+        <RouterLink to="#welcome">Welcome<br />Thursday, July 11</RouterLink>
+        <RouterLink to="#wedding">Wedding<br />Friday, July 12</RouterLink>
+        <RouterLink to="#day-two">Day two<br />Saturday, July 13</RouterLink>
       </nav>
     </section>
 
-    <img alt="Durrus and Bantry" class="durrus-bantry" src="@/assets/durrus-bantry.png"/>
+    <img alt="Durrus and Bantry" class="durrus-bantry" src="@/assets/durrus-bantry.png" />
 
     <section id="welcome">
       <h2>Welcome</h2>
 
       <p>
-        Thursday, July 11<br>
-        Location name<br>
-        Location address<br>
+        Thursday, July 11<br />
+        Location name<br />
+        Location address<br />
       </p>
 
       <p>Low key meetup</p>
@@ -31,18 +31,17 @@
         <li>?PM - Wij zijn er</li>
         <li>?PM - Wij gaan</li>
       </ul>
-
     </section>
 
-    <img alt="Durrus and Bantry" class="durrus-bantry" src="@/assets/durrus-bantry.png"/>
+    <img alt="Durrus and Bantry" class="durrus-bantry" src="@/assets/durrus-bantry.png" />
 
     <section id="wedding">
       <h2>Wedding</h2>
 
       <p>
-        Friday, July 12<br>
-        Blairscove House<br>
-        Durrus, Cork, P75 FE44<br>
+        Friday, July 12<br />
+        Blairscove House<br />
+        Durrus, Cork, P75 FE44<br />
       </p>
 
       <ul>
@@ -59,15 +58,15 @@
       </ul>
     </section>
 
-    <img alt="Durrus and Bantry" class="durrus-bantry" src="@/assets/durrus-bantry.png"/>
+    <img alt="Durrus and Bantry" class="durrus-bantry" src="@/assets/durrus-bantry.png" />
 
     <section id="day-two">
       <h2>Day Two</h2>
 
       <p>
-        Saturday, July 13<br>
-        Ma Murphy's Bar<br>
-        7 New Street, Bantry, Cork<br>
+        Saturday, July 13<br />
+        Ma Murphy's Bar<br />
+        7 New Street, Bantry, Cork<br />
       </p>
 
       <ul>
@@ -114,13 +113,12 @@ section {
   &.roys-peak {
     min-height: 80vh;
 
-    background-image: url("@/assets/roys-peak.jpeg");
-    background-size: cover; 
+    background-image: url('@/assets/roys-peak.jpeg');
+    background-size: cover;
   }
 }
 
 .durrus-bantry {
-    width: 100vw;
-  }
-
+  width: 100vw;
+}
 </style>

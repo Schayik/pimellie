@@ -21,45 +21,38 @@
 
       <ul>
         <li>
-          Welcome<br>
-          Thursday, July 11<br>
-          Location name<br>
-          Location address<br>
+          Welcome<br />
+          Thursday, July 11<br />
+          Location name<br />
+          Location address<br />
         </li>
 
         <li>
-          Wedding<br>
-          Friday, July 12<br>
-          Blairscove House<br>
-          Durrus, Cork, P75 FE44<br>
+          Wedding<br />
+          Friday, July 12<br />
+          Blairscove House<br />
+          Durrus, Cork, P75 FE44<br />
         </li>
 
         <li>
-          Day Two<br>
-          Saturday, July 13<br>
-          Ma Murphy's Bar<br>
-          7 New Street, Bantry, Cork<br>
+          Day Two<br />
+          Saturday, July 13<br />
+          Ma Murphy's Bar<br />
+          7 New Street, Bantry, Cork<br />
         </li>
       </ul>
 
-      <p>
-        De tijden vind je op de <RouterLink to="/wedding">wedding-page</RouterLink>
-      </p>
+      <p>De tijden vind je op de <RouterLink to="/wedding">wedding-page</RouterLink></p>
 
       <h2>Clothes</h2>
 
-      <p>
-        Vergeet je feestneus niet. ...
-      </p>
+      <p>Vergeet je feestneus niet. ...</p>
 
       <h2>Registry</h2>
 
-      <p>
-        Bla bla bla. ..
-      </p>
+      <p>Bla bla bla. ..</p>
 
       <RouterLink to="#topics">Back to topic overview ^</RouterLink>
-
     </section>
 
     <section id="places-to-stay">
@@ -67,16 +60,17 @@
 
       <h2>Location</h2>
 
-      <p>
-        Ergens in Bantry, vlakbij Ma Murphy's bar.
-      </p>
+      <p>Ergens in Bantry, vlakbij Ma Murphy's bar.</p>
 
       <h2>Our favourites</h2>
 
       <ul>
         <li>The Maritime</li>
         <li>West Lodge</li>
-        <li>There's a lot of smaller guest houses around that can be booked through Airbnb or Bookng.com</li>
+        <li>
+          There's a lot of smaller guest houses around that can be booked through Airbnb or
+          Bookng.com
+        </li>
       </ul>
 
       <RouterLink to="#topics">Back to topic overview ^</RouterLink>
@@ -87,15 +81,11 @@
 
       <h2>Parking</h2>
 
-      <p>
-        Ergens in Bantry, vlakbij Ma Murphy's bar.
-      </p>
+      <p>Ergens in Bantry, vlakbij Ma Murphy's bar.</p>
 
       <h2>Airport</h2>
 
-      <p>
-        Ergens in Bantry, vlakbij Ma Murphy's bar.
-      </p>
+      <p>Ergens in Bantry, vlakbij Ma Murphy's bar.</p>
 
       <RouterLink to="#topics">Back to topic overview ^</RouterLink>
     </section>
@@ -137,13 +127,12 @@ section {
   &.roys-peak {
     min-height: 80vh;
 
-    background-image: url("@/assets/roys-peak.jpeg");
-    background-size: cover; 
+    background-image: url('@/assets/roys-peak.jpeg');
+    background-size: cover;
   }
 }
 
 .durrus-bantry {
-    width: 100vw;
-  }
-
+  width: 100vw;
+}
 </style>

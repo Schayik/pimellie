@@ -36,20 +36,6 @@
   --section-gap: 160px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
-  }
-}
-
 *,
 *::before,
 *::after {
@@ -60,27 +46,54 @@
 
 body {
   min-height: 100vh;
-  color: var(--color-text);
+  /* color: var(--color-text); */
+  color: black;
   background: var(--color-background);
   transition:
     color 0.5s,
     background-color 0.5s;
-  line-height: 1.6;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  font-size: 15px;
+  line-height: auto;
+  font-size: 19px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2 {
+  font-family: 'aliceregular';
+  font-weigth: normal;
+  font-style: normal;
+}
+
+h3,
+h4,
+a > p {
+  font-family: 'bevietnammedium';
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: 'bevietnamthin';
+  font-weight: thin;
+  font-style: normal;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mx-2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-4 {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }

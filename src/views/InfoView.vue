@@ -127,7 +127,7 @@ section {
   &.roys-peak {
     min-height: 80vh;
 
-    background-image: url('@/assets/roys-peak.jpeg');
+    background-image: url('@/assets/roys-peak.png');
     background-size: cover;
   }
 }

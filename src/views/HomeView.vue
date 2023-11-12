@@ -24,15 +24,21 @@ import Flask from '@/components/icons/IconFlask.vue'
       <h3 class="mt-2">Nijmegen, Nederland, 2017</h3>
     </section>
 
-    <section class="roys-peak">
+    <section class="roys-peak-engaged">
       <h2>Engaged!</h2>
-      <p class="mx-4">Sometimes it's worth waking up early</p>
+      <p class="mx-4">
+        Sometimes it's worth<br />
+        waking up early
+      </p>
       <h3 class="mt-2">Roys Peak, New Zealand, 2023</h3>
     </section>
 
     <section>
       <h2>Our wedding</h2>
-      <p>Time to celebrate with our family and dearest friend</p>
+      <p>
+        Time to celebrate<br />
+        with our family and dearest friend
+      </p>
       <h3 class="mt-2">West Cork, Ireland, 2024</h3>
     </section>
 
@@ -45,7 +51,7 @@ import Flask from '@/components/icons/IconFlask.vue'
       </RouterLink>
       <RouterLink to="/info">
         <div class="icon-relative">
-          <Cheers class="icon-absolute waving"/>
+          <Cheers class="icon-absolute waving" />
         </div>
         <p>Everything you need and want to know about our wedding</p>
       </RouterLink>
@@ -56,10 +62,12 @@ import Flask from '@/components/icons/IconFlask.vue'
 <style scoped lang="scss">
 header {
   min-height: 100vh;
+  min-height: 100svh;
   padding: 8rem 1rem;
 
   background-image: url('@/assets/roys-peak.png');
   background-size: cover;
+  background-position: center;
 
   display: flex;
   flex-direction: column;
@@ -99,10 +107,10 @@ section {
     text-align: center;
   }
 
-  &.roys-peak {
+  &.roys-peak-engaged {
     min-height: 100vh;
 
-    background-image: url('@/assets/roys-peak-2.png');
+    background-image: url('@/assets/roys-peak-engaged.png');
     background-size: cover;
   }
 }
@@ -114,13 +122,16 @@ section {
 
 nav {
   padding: 1rem;
+  margin-bottom: 10rem;
 
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   > a {
-    margin-top: 2rem;
+    margin-bottom: 2rem;
     min-height: 92px;
+    max-width: 360px;
 
     display: flex;
     padding: 1rem 0.5rem;
@@ -148,13 +159,12 @@ nav {
           height: 106px;
         }
       }
-
     }
 
     > p {
+      font-family: 'bevietnammedium';
       margin-left: 1rem;
     }
-
   }
 }
 </style>

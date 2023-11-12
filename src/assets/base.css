@@ -41,7 +41,6 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  font-weight: normal;
 }
 
 body {
@@ -67,8 +66,7 @@ h2 {
 }
 
 h3,
-h4,
-a > p {
+h4 {
   font-family: 'bevietnammedium';
   font-weight: normal;
   font-style: normal;

@@ -46,7 +46,7 @@ onMounted(() => {
   </BasicNav>
 
   <main>
-    <MapStandard class="map" />
+    <MapStandard class="map" markerLocation="town" />
 
     <section id="welcome">
       <h3>Welcome</h3>
@@ -58,7 +58,7 @@ onMounted(() => {
       <p>Low key meetup</p>
     </section>
 
-    <MapStandard class="map" />
+    <MapStandard class="map" markerLocation="blairscove" />
 
     <section id="wedding">
       <h3>Wedding</h3>
@@ -135,7 +135,7 @@ onMounted(() => {
       </table>
     </section>
 
-    <MapStandard class="map" />
+    <MapStandard class="map" markerLocation="ma-murphy" />
 
     <section id="day-two">
       <h3>Day Two</h3>

@@ -46,7 +46,7 @@ onMounted(() => {
   </BasicNav>
 
   <main>
-    <MapStandard class="map" markerLocation="town" />
+    <MapStandard class="location-map" markerLocation="town" />
 
     <section id="welcome">
       <h3>Welcome</h3>
@@ -58,7 +58,7 @@ onMounted(() => {
       <p>Low key meetup</p>
     </section>
 
-    <MapStandard class="map" markerLocation="blairscove" />
+    <MapStandard class="location-map" markerLocation="blairscove" />
 
     <section id="wedding">
       <h3>Wedding</h3>
@@ -135,7 +135,7 @@ onMounted(() => {
       </table>
     </section>
 
-    <MapStandard class="map" markerLocation="ma-murphy" />
+    <MapStandard class="location-map" markerLocation="ma-murphy" />
 
     <section id="day-two">
       <h3>Day Two</h3>
@@ -178,7 +178,7 @@ header {
   }
 }
 
-.map {
+.location-map {
   margin-top: 4rem;
   width: 100%;
   height: auto;
@@ -186,23 +186,6 @@ header {
 
 section {
   padding: 1rem;
-
-  > h2 {
-    color: black;
-  }
-  > h3 {
-    color: black;
-  }
-  > p {
-    color: black;
-  }
-
-  &.roys-peak {
-    min-height: 80vh;
-
-    background-image: url('@/assets/roys-peak.png');
-    background-size: cover;
-  }
 }
 
 table {
@@ -258,9 +241,5 @@ table {
       }
     }
   }
-}
-
-.durrus-bantry {
-  width: 100vw;
 }
 </style>

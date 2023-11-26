@@ -73,7 +73,8 @@ h4 {
 }
 
 p,
-table {
+table,
+ul {
   font-family: 'bevietnamthin';
   font-weight: thin;
   font-style: normal;
@@ -85,6 +86,10 @@ table {
 
 .mt-2 {
   margin-top: 2rem;
+}
+
+.ml-2 {
+  margin-left: 8px;
 }
 
 .mx-2 {

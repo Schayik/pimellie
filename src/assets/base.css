@@ -72,7 +72,8 @@ h4 {
   font-style: normal;
 }
 
-p {
+p,
+table {
   font-family: 'bevietnamthin';
   font-weight: thin;
   font-style: normal;
@@ -94,4 +95,8 @@ p {
 .mx-4 {
   margin-left: 4rem;
   margin-right: 4rem;
+}
+
+.h-16 {
+  height: 16rem;
 }

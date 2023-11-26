@@ -10,20 +10,22 @@ import IconHome from '@/components/icons/IconHome.vue'
   <RouterView />
 
   <nav>
-    <div class="background"></div>
+    <div class="nav-wrapper">
+      <div class="background"></div>
 
-    <RouterLink to="/wedding">
-      <IconChemie class="icon" />
-      <p>WEDDING</p>
-    </RouterLink>
-    <RouterLink to="/">
-      <IconHome class="icon" />
-      <p>HOME</p>
-    </RouterLink>
-    <RouterLink to="/info">
-      <IconCheers class="icon" />
-      <p>INFO</p>
-    </RouterLink>
+      <RouterLink to="/timeline">
+        <IconChemie class="icon" />
+        <p>WEDDING</p>
+      </RouterLink>
+      <RouterLink to="/">
+        <IconHome class="icon" />
+        <p>HOME</p>
+      </RouterLink>
+      <RouterLink to="/info">
+        <IconCheers class="icon" />
+        <p>INFO</p>
+      </RouterLink>
+    </div>
   </nav>
 </template>
 
@@ -34,40 +36,47 @@ nav {
   left: 0;
   right: 0;
 
-  display: flex;
-  justify-content: space-around;
+  > .nav-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 36rem;
 
-  > .background {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    background-color: white;
-    height: 30px;
-
-    z-index: -1;
-  }
-
-  > a {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
 
-    text-decoration: none;
-    color: black;
+    > .background {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
 
-    > .icon {
-      width: 108px;
-      height: 90px;
+      border-top: 1px solid black;
+
+      background-color: white;
+      height: 30px;
+
+      z-index: -1;
     }
+    > a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-    > p {
-      font-family: 'bevietnamthin';
-      font-size: 15px;
-    }
-    &.router-link-active > p {
-      font-family: 'bevietnammedium';
+      text-decoration: none;
+      color: black;
+
+      > .icon {
+        width: 108px;
+        height: 90px;
+      }
+
+      > p {
+        font-family: 'bevietnamthin';
+        font-size: 15px;
+      }
+      &.router-link-active > p {
+        font-family: 'bevietnammedium';
+      }
     }
   }
 }

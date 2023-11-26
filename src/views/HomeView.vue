@@ -1,4 +1,5 @@
 <script setup>
+import BasicNav from '@/components/BasicNav.vue'
 import Cheers from '@/components/icons/IconCheers.vue'
 import Chemie from '@/components/icons/IconChemie.vue'
 import Flask from '@/components/icons/IconFlask.vue'
@@ -12,7 +13,7 @@ import Flask from '@/components/icons/IconFlask.vue'
 
   <main>
     <section>
-      <Flask class="chemy" />
+      <Flask class="chemy-icon" />
       <p class="mt-2">
         An Irish and a Dutchie<br />
         Working as a chemist<br />
@@ -42,8 +43,8 @@ import Flask from '@/components/icons/IconFlask.vue'
       <h3 class="mt-2">West Cork, Ireland, 2024</h3>
     </section>
 
-    <nav>
-      <RouterLink to="/wedding">
+    <BasicNav>
+      <RouterLink to="/timeline">
         <div class="icon-relative">
           <Chemie class="icon-absolute flowers" />
         </div>
@@ -55,8 +56,10 @@ import Flask from '@/components/icons/IconFlask.vue'
         </div>
         <p>Everything you need and want to know about our wedding</p>
       </RouterLink>
-    </nav>
+    </BasicNav>
   </main>
+
+  <div class="h-16"></div>
 </template>
 
 <style scoped lang="scss">
@@ -113,58 +116,10 @@ section {
     background-image: url('@/assets/roys-peak-engaged.png');
     background-size: cover;
   }
-}
 
-.chemy {
-  height: 90px;
-  width: 90px;
-}
-
-nav {
-  padding: 1rem;
-  margin-bottom: 10rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  > a {
-    margin-bottom: 2rem;
-    min-height: 92px;
-    max-width: 360px;
-
-    display: flex;
-    padding: 1rem 0.5rem;
-
-    border: 1px solid black;
-    border-radius: 1rem;
-
-    line-height: 25px;
-    color: black;
-    text-decoration: none;
-
-    > .icon-relative {
-      position: relative;
-
-      width: 108px;
-      flex-shrink: 0;
-
-      > .icon-absolute {
-        position: absolute;
-        width: 108px;
-        &.flowers {
-          height: 81px;
-        }
-        &.waving {
-          height: 106px;
-        }
-      }
-    }
-
-    > p {
-      font-family: 'bevietnammedium';
-      margin-left: 1rem;
-    }
+  > .chemy-icon {
+    height: 90px;
+    width: 90px;
   }
 }
 </style>

@@ -1,3 +1,10 @@
+<script setup>
+import { onMounted } from 'vue'
+onMounted(() => {
+  window.scrollTo(0, 0)
+})
+</script>
+
 <template>
   <header>
     <h1>Everything you need and want to know about our wedding</h1>

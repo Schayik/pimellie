@@ -3,6 +3,11 @@ import BasicNav from '@/components/BasicNav.vue'
 import Cheers from '@/components/icons/IconCheers.vue'
 import Chemie from '@/components/icons/IconChemie.vue'
 import Flask from '@/components/icons/IconFlask.vue'
+
+import { onMounted } from 'vue'
+onMounted(() => {
+  window.scrollTo(0, 0)
+})
 </script>
 
 <template>

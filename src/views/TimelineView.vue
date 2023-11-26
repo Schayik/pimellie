@@ -2,6 +2,11 @@
 import BasicNav from '@/components/BasicNav.vue'
 import LocationIcon from '@/components/icons/LocationIcon.vue'
 import MapStandard from '@/components/icons/MapStandard.vue'
+
+import { onMounted } from 'vue'
+onMounted(() => {
+  window.scrollTo(0, 0)
+})
 </script>
 
 <template>
@@ -43,7 +48,7 @@ import MapStandard from '@/components/icons/MapStandard.vue'
   <main>
     <MapStandard class="map" />
 
-    <section>
+    <section id="welcome">
       <h3>Welcome</h3>
       <p>
         Thursday, July 11<br />
@@ -55,7 +60,7 @@ import MapStandard from '@/components/icons/MapStandard.vue'
 
     <MapStandard class="map" />
 
-    <section>
+    <section id="wedding">
       <h3>Wedding</h3>
       <p>Friday, July 12<br />Blairscove House<br />Durrus, Cork, P75 FE44</p>
 
@@ -132,7 +137,7 @@ import MapStandard from '@/components/icons/MapStandard.vue'
 
     <MapStandard class="map" />
 
-    <section>
+    <section id="day-two">
       <h3>Day Two</h3>
       <p>Saturday, July 13<br />Ma Murphy's Bar<br />7 New Street, Bantry, Cork</p>
 

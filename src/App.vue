@@ -31,7 +31,7 @@ import IconHome from '@/components/icons/IconHome.vue'
 
 <style scoped lang="scss">
 nav {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0;

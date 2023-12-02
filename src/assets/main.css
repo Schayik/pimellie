@@ -7,18 +7,18 @@
 
 @font-face {
   font-family: 'aliceregular';
-  src: url('@/assets/Alice-Regular.woff') format('woff');
+  src: url('/Alice-Regular.woff') format('woff');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'bevietnammedium';
-  src: url('@/assets/BeVietnam-Medium.woff') format('woff');
+  src: url('/BeVietnam-Medium.woff') format('woff');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'bevietnamthin';
-  src: url('@/assets/BeVietnam-Thin.woff') format('woff');
+  src: url('/BeVietnam-Thin.woff') format('woff');
   font-style: normal;
 }

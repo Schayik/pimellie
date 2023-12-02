@@ -73,7 +73,7 @@ header {
   min-height: 100svh;
   padding: 8rem 1rem;
 
-  background-image: url('@/assets/roys-peak-far-563x900.png');
+  background-image: url('/roys-peak-far-563x900.png');
   background-size: cover;
   background-position: center;
 

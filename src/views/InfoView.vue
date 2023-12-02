@@ -164,7 +164,7 @@ onMounted(() => {
       </RouterLink>
     </section>
 
-    <div class="h-16"></div>
+    <div class="h-8"></div>
   </main>
 </template>
 

@@ -31,10 +31,12 @@ import IconHome from '@/components/icons/IconHome.vue'
 
 <style scoped lang="scss">
 nav {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
+
+  z-index: 5;
 
   > .nav-wrapper {
     margin-left: auto;

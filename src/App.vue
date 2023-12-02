@@ -59,7 +59,7 @@ nav {
       background-color: white;
       height: 30px;
 
-      z-index: -1;
+      z-index: 3;
     }
     > a {
       display: flex;
@@ -68,6 +68,8 @@ nav {
 
       text-decoration: none;
       color: black;
+
+      z-index: 4;
 
       > .icon {
         width: 108px;

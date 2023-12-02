@@ -43,7 +43,7 @@ onMounted(() => {
       <h2>Our wedding</h2>
       <p>
         Time to celebrate<br />
-        with our family and dearest friend
+        with our family and dearest friends
       </p>
       <h3 class="mt-2">West Cork, Ireland, 2024</h3>
     </section>

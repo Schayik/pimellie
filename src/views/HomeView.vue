@@ -64,7 +64,7 @@ onMounted(() => {
     </BasicNav>
   </main>
 
-  <div class="h-8"></div>
+  <div class="h-10"></div>
 </template>
 
 <style scoped lang="scss">

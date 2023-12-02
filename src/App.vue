@@ -41,6 +41,8 @@ nav {
     margin-right: auto;
     max-width: 36rem;
 
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+
     display: flex;
     justify-content: space-around;
 

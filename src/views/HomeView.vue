@@ -30,7 +30,7 @@ onMounted(() => {
       <h3 class="mt-2">Nijmegen, Nederland, 2017</h3>
     </section>
 
-    <section class="roys-peak-engaged">
+    <section class="roys-peak-close">
       <h2>Engaged!</h2>
       <p class="mx-4">
         Sometimes it's worth<br />
@@ -73,7 +73,7 @@ header {
   min-height: 100svh;
   padding: 8rem 1rem;
 
-  background-image: url('@/assets/roys-peak.png');
+  background-image: url('@/assets/roys-peak-far-563x900.png');
   background-size: cover;
   background-position: center;
 
@@ -115,10 +115,10 @@ section {
     text-align: center;
   }
 
-  &.roys-peak-engaged {
+  &.roys-peak-close {
     min-height: 100vh;
 
-    background-image: url('@/assets/roys-peak-engaged.png');
+    background-image: url('@/assets/roys-peak-close-563x690.png');
     background-size: cover;
   }
 

@@ -226,7 +226,7 @@ ul.wedding-dates {
     margin-top: 8px;
     display: flex;
     > span {
-      margin-right: 32px;
+      margin-right: 8px;
     }
   }
 }

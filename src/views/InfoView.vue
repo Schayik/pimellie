@@ -55,13 +55,17 @@ onMounted(() => {
         We want our guests to be comfortable and relaxed on the day; but we would love to see everyone look their best! Cocktail attire is encouraged: suits/chinos/jumpsuits/cocktail dresses are all perfect. If in doubt, give us a shout!
       </p>
 
+      <h4> Transport on the day of</h4>
+
+      <p> Blairscove is approximately 10 minutes outside Bantry town. We will be collecting you on the party bus and returning you safely to Bantry afterwards. Buses will be running throughout the evening, taxis are few and far between in Bantry so please do not rely on them. Blairscove is not walkable as the roads are dark and unsafe with no footpaths, please don't walk home! </p>
+
       <h4>Weather</h4>
 
       <p>
         Even though you would expect a beautiful sunny day in mid July; please note that the weather in Ireland doesn't always play ball.. We are hoping to have an outdoor ceremony and reception; alternative arrangements will be made if the sun does not shine!
       </p>
 
-      <h4> Ceremony Language</h4>
+      <h4> Talen</h4>
 
       <p> Gelukkig begrijpt en spreekt de meerderheid van onze familie en vrienden Engels, maar we zullen de hele dag beide talen gebruiken om al onze gewaardeerde gasten erbij te betrekken!
         </p>

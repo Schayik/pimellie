@@ -13,7 +13,7 @@ onMounted(() => {
 
 <template>
   <header id="top">
-    <h1>Everything you need and want to know about our wedding</h1>
+    <h1>The Details</h1>
   </header>
 
   <BasicNav>
@@ -22,7 +22,7 @@ onMounted(() => {
       <div class="icon-relative">
         <Chemie class="icon-absolute location" />
       </div>
-      <p>Wedding</p>
+      <p>The Day of</p>
     </RouterLink>
     <RouterLink to="#places-to-stay">
       <div class="icon-relative">
@@ -44,52 +44,32 @@ onMounted(() => {
         <div class="icon-relative">
           <Chemie class="icon-absolute" />
         </div>
-        <h3>Wedding</h3>
+        <h3>The Day of</h3>
       </div>
 
-      <h4>Our favourites</h4>
+      <p>Link to the schedule of the day <RouterLink to="/timeline">wedding-page</RouterLink></p>
 
-      <ul class="wedding-dates">
-        <li>
-          <span>•</span>
-          Welcome drinks<br />
-          Thursday, July 11<br />
-          Location name<br />
-          Location address<br />
-        </li>
-
-        <li>
-          <span>•</span>
-          Wedding<br />
-          Friday, July 12<br />
-          Blairscove House<br />
-          Durrus, Cork, P75 FE44<br />
-        </li>
-
-        <li>
-          <span>•</span>
-          Day Two<br />
-          Saturday, July 13<br />
-          Ma Murphy's Bar<br />
-          7 New Street, Bantry, Cork<br />
-        </li>
-      </ul>
-
-      <p>De tijden vind je op de <RouterLink to="/timeline">wedding-page</RouterLink></p>
-
-      <h4>Clothes</h4>
+      <h4>Dress Code</h4>
 
       <p>
-        Vergeet je feestneus niet. Is het binnen of buiten? Cat ipsum dolor sit amet, crusty
-        butthole or throw down all the stuff in the kitchen yet who's the baby. Steal raw zucchini
-        off kitchen counter i am the best.
+        We want our guests to be comfortable and relaxed on the day; but we would love to see everyone look their best! Cocktail attire is encouraged: suits/chinos/jumpsuits/cocktail dresses are all perfect. If in doubt, give us a shout!
       </p>
 
-      <h4>Registry</h4>
+      <h4>Weather</h4>
 
       <p>
-        Cat ipsum dolor sit amet, crusty butthole or throw down all the stuff in the kitchen yet
-        who's the baby. Steal raw zucchini off kitchen counter i am the best.
+        Even though you would expect a beautiful sunny day in mid July; please note that the weather in Ireland doesn't always play ball.. We are hoping to have an outdoor ceremony and reception; alternative arrangements will be made if the sun does not shine!
+      </p>
+
+      <h4> Ceremony Language</h4>
+
+      <p> Gelukkig begrijpt en spreekt de meerderheid van onze familie en vrienden Engels, maar we zullen de hele dag beide talen gebruiken om al onze gewaardeerde gasten erbij te betrekken!
+        </p>
+
+      <h4>Gifts</h4>
+
+      <p>
+        Your presence is the best present to us (really!); however if you would like to still give us a small gift; a donation to our honeymoon would be extremely appreciated!
       </p>
 
       <RouterLink class="back-to-top" to="#top">

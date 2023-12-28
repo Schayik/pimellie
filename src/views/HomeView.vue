@@ -20,9 +20,9 @@ onMounted(() => {
     <section>
       <Flask class="chemy-icon" />
       <p class="mt-2">
-        An Irish and a Dutchie<br />
-        Working as a chemist<br />
-        They study, the measure, they graph<br />
+        An Irish Brit and a Dutchie<br />
+        Working as chemists<br />
+        They study, they measure, they graph<br />
         They like, they love, they laugh<br />
         Exactly what they've missed<br />
         A perfect chemistry<br />
@@ -53,13 +53,13 @@ onMounted(() => {
         <div class="icon-relative">
           <Chemie class="icon-absolute flowers" />
         </div>
-        <p>All magical moments of our wedding</p>
+        <p>The Schedule</p>
       </RouterLink>
       <RouterLink to="/info">
         <div class="icon-relative">
           <Cheers class="icon-absolute waving" />
         </div>
-        <p>Everything you need and want to know about our wedding</p>
+        <p>The Details</p>
       </RouterLink>
     </BasicNav>
   </main>

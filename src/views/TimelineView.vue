@@ -23,7 +23,7 @@ onMounted(() => {
         <p class="date-month">JULY</p>
         <p class="date-daynumber">11</p>
       </div>
-      <p>Welcome</p>
+      <p>The Welcome drinks</p>
     </RouterLink>
     <RouterLink to="#wedding">
       <div class="icon-relative">
@@ -32,7 +32,7 @@ onMounted(() => {
         <p class="date-month">JULY</p>
         <p class="date-daynumber">12</p>
       </div>
-      <p>Wedding</p>
+      <p>The Main Event</p>
     </RouterLink>
     <RouterLink to="#day-two">
       <div class="icon-relative">
@@ -41,7 +41,7 @@ onMounted(() => {
         <p class="date-month">JULY</p>
         <p class="date-daynumber">13</p>
       </div>
-      <p>Day Two</p>
+      <p>The Day Two</p>
     </RouterLink>
   </BasicNav>
 
@@ -49,7 +49,7 @@ onMounted(() => {
     <MapStandard class="location-map" markerLocation="town" />
 
     <section id="welcome">
-      <h3>Welcome</h3>
+      <h3>The Welcome Drinks</h3>
       <p>
         Thursday, July 11<br />
         Bantry town centre
@@ -61,7 +61,7 @@ onMounted(() => {
     <MapStandard class="location-map" markerLocation="blairscove" />
 
     <section id="wedding">
-      <h3>Wedding</h3>
+      <h3>The Main Event</h3>
       <p>Friday, July 12<br />Blairscove House<br />Durrus, Cork, P75 FE44</p>
 
       <table>
@@ -69,23 +69,23 @@ onMounted(() => {
           <tr>
             <td>1.30PM</td>
             <td class="timetable-line first"></td>
-            <td>Bus pickup in Bantry town centre</td>
+            <td>Bus collection in Bantry (Town Centre)</td>
           </tr>
 
           <tr>
-            <td>2PM</td>
+            <td>1:45PM</td>
             <td class="timetable-line"></td>
-            <td>Arrive at Blairscove</td>
+            <td>Hug your friends and take your seats</td>
           </tr>
 
           <tr>
-            <td>2.30PM</td>
+            <td>2.00PM</td>
             <td class="timetable-line"></td>
             <td>Ceremony</td>
           </tr>
 
           <tr>
-            <td>3.30PM</td>
+            <td>2:45PM</td>
             <td class="timetable-line"></td>
             <td>Drinks reception and speeches</td>
           </tr>
@@ -96,12 +96,7 @@ onMounted(() => {
             <td>Dinner bell</td>
           </tr>
 
-          <tr>
-            <td>8PM</td>
-            <td class="timetable-line"></td>
-            <td>After dinner speeches</td>
-          </tr>
-
+          
           <tr>
             <td>8.30PM</td>
             <td class="timetable-line"></td>
@@ -138,7 +133,7 @@ onMounted(() => {
     <MapStandard class="location-map" markerLocation="ma-murphy" />
 
     <section id="day-two">
-      <h3>Day Two</h3>
+      <h3>The Day Two</h3>
       <p>Saturday, July 13<br />Ma Murphy's Bar<br />7 New Street, Bantry, Cork</p>
 
       <table>

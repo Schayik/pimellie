@@ -52,7 +52,7 @@ onMounted(() => {
       <ul class="wedding-dates">
         <li>
           <span>•</span>
-          Welcome<br />
+          Welcome drinks<br />
           Thursday, July 11<br />
           Location name<br />
           Location address<br />

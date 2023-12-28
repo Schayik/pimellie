@@ -89,29 +89,26 @@ onMounted(() => {
         <h3>Places to stay</h3>
       </div>
 
-      <h4>Location</h4>
-
-      <p>Ergens in Bantry, vlakbij Ma Murphy's bar.</p>
-
-      <h4>Our favourites</h4>
+      <h4>Our Recommendations</h4>
 
       <ul class="location-favourites">
         <li>
           <span>•</span>
-          <p><a href="https://www.themaritime.ie/">The Maritime Hotel</a></p>
+          <p><a href="https://www.themaritime.ie/">The Maritime Hotel</a> <b>$$</b></p>
         </li>
 
         <li>
           <span>•</span>
-          <p><a href="https://www.westlodgehotel.ie/">Westlodge Hotel</a></p>
+          <p><a href="https://www.westlodgehotel.ie/">The Westlodge Hotel</a> <b>$$</b></p>
         </li>
 
         <li>
           <span>•</span>
           <p>
-            There's a lot of smaller guest houses around that can be booked through
+            Guest houses and holiday homes available through
             <a href="https://www.airbnb.ie/">AirBnB</a> or
             <a href="https://www.booking.com/">Booking.com</a>
+            <b> $</b>
           </p>
         </li>
       </ul>
@@ -132,16 +129,27 @@ onMounted(() => {
       <h4>Parking</h4>
 
       <p>
-        Cat ipsum dolor sit amet, crusty butthole or throw down all the stuff in the kitchen yet
-        who's the baby. Steal raw zucchini off kitchen counter i am the best.
+        There is limited parking available at Blairscove, please use the party bus if possible.
       </p>
 
-      <h4>Airport</h4>
+      <h4>Airports</h4>
 
-      <p>
-        Cat ipsum dolor sit amet, crusty butthole or throw down all the stuff in the kitchen yet
-        who's the baby. Steal raw zucchini off kitchen counter i am the best.
-      </p>
+      <ul class="location-favourites">
+        <li>
+          <span>•</span>
+          <p><b>Cork</b> Add in location, 1h 15 min by car, 2h by bus from Cork City centre (add link to Bus Eireann)</p>
+        </li>
+
+        <li>
+          <span>•</span>
+          <p><b>Shannon</b> Add in location, 3h by car</p>
+        </li>
+
+        <li>
+          <span>•</span>
+          <p><b>Dublin</b> Add in location, 4h by car, approx. 7h by bus (add link to Aircoach)  </p>
+        </li>
+      </ul>
 
       <RouterLink class="back-to-top" to="#top">
         Back to topic overview<VectorUp class="ml-2" />

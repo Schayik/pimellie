@@ -11,7 +11,7 @@ onMounted(() => {
 
 <template>
   <header>
-    <h1>All magical moments of our wedding</h1>
+    <h1>Schedule</h1>
   </header>
 
   <BasicNav>

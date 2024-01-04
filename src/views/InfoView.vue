@@ -59,6 +59,12 @@ onMounted(() => {
 
       <p> Blairscove is approximately 10 minutes outside Bantry town. We will be collecting you on the party bus and returning you safely to Bantry afterwards. Buses will be running throughout the evening, taxis are few and far between in Bantry so please do not rely on them. Blairscove is not walkable as the roads are dark and unsafe with no footpaths, please don't walk home! </p>
 
+      <h4>Parking</h4>
+
+      <p>
+        There is limited parking available at Blairscove, please let us know if you're planning to drive and we can ensure there is a spot for your car.
+      </p>
+
       <h4>Weather</h4>
 
       <p>
@@ -123,32 +129,37 @@ onMounted(() => {
         <div class="icon-relative">
           <Travel class="icon-absolute" />
         </div>
-        <h3>Travel</h3>
+        <h3>Getting to West Cork</h3>
       </div>
 
-      <h4>Parking</h4>
-
-      <p>
-        There is limited parking available at Blairscove, please use the party bus if possible.
-      </p>
 
       <h4>Airports</h4>
 
       <ul class="location-favourites">
         <li>
           <span>•</span>
-          <p><b>Cork</b> Add in location, 1h 15 min by car, 2h by bus from Cork City centre (add link to Bus Eireann)</p>
+          <p><b>Cork</b> <a href="https://www.google.com/maps/place/Cork+Airport/@51.8490591,-8.4924594,17z/data=!3m1!4b1!4m6!3m5!1s0x48448fafbf85db05:0xa48d32b2615271d4!8m2!3d51.8490591!4d-8.4898845!16zL20vMDFxeW1k?entry=ttu">Location</a><br/></p>
         </li>
-
+              <ul> 
+                <li> 1h 15min by car (<a href="https://www.corkairport.com/to-from-the-airport/by-rental-car">Car Hire</a>)</li>
+                <li> 2h by bus from Cork City centre (<a href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1">Bus Eireann</a>)</li>
+              </ul>
         <li>
           <span>•</span>
-          <p><b>Shannon</b> Add in location, 3h by car</p>
-        </li>
-
+          <p><b>Shannon</b> <a href="https://www.google.com/maps/place/Rineanna+South,+Shannon+Airport,+Co.+Clare,+Ireland/@52.6906379,-8.9365638,15z/data=!3m1!4b1!4m6!3m5!1s0x485b4012e627157b:0xfc4fad3bef169a68!8m2!3d52.69064!4d-8.91708!16s%2Fg%2F119wrbv70?entry=ttu">Location</a><br/></p>
+        </li>  
+              <ul> 
+              <li> 3h by car (<a href="https://www.shannonairport.ie/passengers/explore-ireland/car-hire/">Car Hire</a>)</li>
+              </ul>
+      
         <li>
           <span>•</span>
-          <p><b>Dublin</b> Add in location, 4h by car, approx. 7h by bus (add link to Aircoach)  </p>
+          <p><b>Dublin</b> <a href="https://www.google.com/maps/search/dublin+airport/@53.4260791,-6.2499418,15z/data=!3m1!4b1?entry=ttu">Location</a><br/></p>
         </li>
+              <ul> 
+                <li> 4h 15min by car (<a href="https://www.dublinairport.com/to-from-the-airport/car-rental">Car Hire</a>)</li>
+                <li> 7h by bus (<a href="https://www.aircoach.ie/plan-journey/fares/route-704-cork-dublin-city-centre-and-dublin-airport">Air Coach</a> & <a href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1">Bus Eireann</a>)</li>
+              </ul>
       </ul>
 
       <RouterLink class="back-to-top" to="#top">

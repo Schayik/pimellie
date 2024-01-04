@@ -11,7 +11,7 @@ onMounted(() => {
 
 <template>
   <header>
-    <h1>Schedule</h1>
+    <h1>The Schedule</h1>
   </header>
 
   <BasicNav>
@@ -134,7 +134,7 @@ onMounted(() => {
           </tr>
 
           <tr>
-            <td>7PM</td>
+            <td></td>
             <td class="timetable-line"></td>
             <td>More drinks, pizza and trad music</td>
           </tr>

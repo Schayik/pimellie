@@ -52,7 +52,7 @@ onMounted(() => {
       <h4>Dress Code</h4>
 
       <p>
-        We want our guests to be comfortable and relaxed on the day; but we would love to see everyone look their best! Cocktail attire is encouraged: suits/chinos/jumpsuits/cocktail dresses are all perfect. If in doubt, give us a shout!
+        We want our guests to be comfortable and relaxed on the day; but we would love to see everyone look their best! Cocktail attire is encouraged.
       </p>
 
       <h4> Transport on the day of</h4>
@@ -68,7 +68,7 @@ onMounted(() => {
       <h4>Weather</h4>
 
       <p>
-        Even though you would expect a beautiful sunny day in mid July; please note that the weather in Ireland doesn't always play ball.. We are hoping to have an outdoor ceremony and reception; alternative arrangements will be made if the sun does not shine!
+        Even though you would expect a beautiful sunny day in mid July; please note that the weather in Ireland doesn't always play ball... We are hoping to have an outdoor ceremony and reception; alternative arrangements will be made if the sun doesn't shine!
       </p>
 
       <h4> Talen</h4>
@@ -79,7 +79,7 @@ onMounted(() => {
       <h4>Gifts</h4>
 
       <p>
-        Your presence is the best present to us (really!); however if you would like to still give us a small gift; a donation to our honeymoon would be extremely appreciated!
+        Your presence is the best present to us (really!); however if you would like to still give us a small gift, a donation to our honeymoon would be extremely appreciated!
       </p>
 
       <RouterLink class="back-to-top" to="#top">
@@ -132,7 +132,7 @@ onMounted(() => {
         <h3>Getting to West Cork</h3>
       </div>
 
-
+      <p> Part of the charm of West Cork lies in the fact that it is quite isolated. We would recommend car hire for your trip, but public transport is available; albeit limited!</p>
       <h4>Airports</h4>
 
       <ul class="location-favourites">
@@ -162,6 +162,8 @@ onMounted(() => {
               </ul>
       </ul>
 
+      <h4> Ferries </h4>
+      <p> Roscoff, France to Cork <a href="https://www.brittany-ferries.ie/ferry-routes/ireland-france-ferries/cork-roscoff/about">Brittany Ferries</a></p>
       <RouterLink class="back-to-top" to="#top">
         Back to topic overview<VectorUp class="ml-2" />
       </RouterLink>

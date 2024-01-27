@@ -169,6 +169,7 @@ header {
 
 img.landscape-image {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .location-map {

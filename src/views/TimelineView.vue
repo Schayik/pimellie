@@ -45,7 +45,7 @@ onMounted(() => {
       </RouterLink>
     </BasicNav>
 
-    <img src="@/assets/bordeaux.jpeg" class="landscape-image" />
+    <img src="@/assets/bordeaux-563x422.png" class="landscape-image" />
   </div>
 
   <main>
@@ -164,8 +164,8 @@ header {
 }
 
 img.landscape-image {
-  margin-top: 2rem;
-  width: 100vw;
+  margin-top: 1rem;
+  width: 100%;
 }
 
 .location-map {

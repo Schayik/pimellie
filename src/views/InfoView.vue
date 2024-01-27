@@ -3,7 +3,6 @@ import BasicNav from '@/components/BasicNav.vue'
 import Chemie from '@/components/icons/IconChemie.vue'
 import Home from '@/components/icons/IconHome.vue'
 import Travel from '@/components/icons/TravelIcon.vue'
-import VectorUp from '@/components/icons/VectorUp.vue'
 
 import { onMounted } from 'vue'
 onMounted(() => {
@@ -38,7 +37,7 @@ onMounted(() => {
       </RouterLink>
     </BasicNav>
 
-    <img src="@/assets/brewdog.jpeg" class="landscape-image" />
+    <img src="@/assets/brewdog-563x422.png" class="landscape-image" />
   </div>
 
   <main>
@@ -223,8 +222,8 @@ section {
 }
 
 img.landscape-image {
-  margin-top: 2rem;
-  width: 100vw;
+  margin-top: 1rem;
+  width: 100%;
 }
 
 .section-title {

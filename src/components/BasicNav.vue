@@ -7,6 +7,7 @@
 <style lang="scss">
 nav.basic-nav {
   padding: 1rem;
+  padding-top: 0;
 
   display: flex;
   flex-direction: column;

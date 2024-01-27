@@ -12,31 +12,34 @@ onMounted(() => {
 </script>
 
 <template>
-  <header id="top">
-    <h1>The Details</h1>
-  </header>
+  <div class="mh-100">
+    <header id="top">
+      <h1>The Details</h1>
+    </header>
 
-  <BasicNav>
-    <h3>Topics</h3>
-    <RouterLink to="#wedding">
-      <div class="icon-relative">
-        <Chemie class="icon-absolute location" />
-      </div>
-      <p>The Day of</p>
-    </RouterLink>
-    <RouterLink to="#places-to-stay">
-      <div class="icon-relative">
-        <Home class="icon-absolute location" />
-      </div>
-      <p>Places to stay</p>
-    </RouterLink>
-    <RouterLink to="#travel">
-      <div class="icon-relative">
-        <Travel class="icon-absolute location" />
-      </div>
-      <p>Travel</p>
-    </RouterLink>
-  </BasicNav>
+    <BasicNav>
+      <RouterLink to="#wedding">
+        <div class="icon-relative">
+          <Chemie class="icon-absolute" />
+        </div>
+        <p>The Day of</p>
+      </RouterLink>
+      <RouterLink to="#places-to-stay">
+        <div class="icon-relative">
+          <Home class="icon-absolute" />
+        </div>
+        <p>Places to stay</p>
+      </RouterLink>
+      <RouterLink to="#travel">
+        <div class="icon-relative">
+          <Travel class="icon-absolute" />
+        </div>
+        <p>Travel</p>
+      </RouterLink>
+    </BasicNav>
+
+    <img src="@/assets/brewdog.jpeg" class="landscape-image" />
+  </div>
 
   <main>
     <section id="wedding">
@@ -46,8 +49,6 @@ onMounted(() => {
         </div>
         <h3>The Day of</h3>
       </div>
-
-      <p>Link to the schedule of the day <RouterLink to="/timeline">wedding-page</RouterLink></p>
 
       <h4>Dress Code</h4>
 
@@ -94,10 +95,6 @@ onMounted(() => {
         Your presence is the best present to us (really!); however if you would like to still give
         us a small gift, a donation to our honeymoon would be extremely appreciated!
       </p>
-
-      <RouterLink class="back-to-top" to="#top">
-        Back to topic overview<VectorUp class="ml-2" />
-      </RouterLink>
     </section>
 
     <section id="places-to-stay">
@@ -131,10 +128,6 @@ onMounted(() => {
           </p>
         </li>
       </ul>
-
-      <RouterLink class="back-to-top" to="#top">
-        Back to topic overview<VectorUp class="ml-2" />
-      </RouterLink>
     </section>
 
     <section id="travel">
@@ -203,9 +196,6 @@ onMounted(() => {
           >Brittany Ferries</a
         >
       </p>
-      <RouterLink class="back-to-top" to="#top">
-        Back to topic overview<VectorUp class="ml-2" />
-      </RouterLink>
     </section>
 
     <div class="h-10"></div>
@@ -217,8 +207,9 @@ header {
   padding: 1rem;
 
   > h1 {
-    font-family: 'bevietnammedium';
-    font-size: 33px;
+    font-family: 'aliceregular';
+    font-size: 40px;
+    text-align: center;
   }
 }
 
@@ -226,9 +217,14 @@ section {
   padding: 1rem;
 
   h4 {
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 21px;
   }
+}
+
+img.landscape-image {
+  margin-top: 2rem;
+  width: 100vw;
 }
 
 .section-title {

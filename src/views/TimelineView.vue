@@ -18,7 +18,7 @@ onMounted(() => {
     <BasicNav>
       <RouterLink to="#welcome">
         <div class="icon-relative">
-          <LocationIcon class="icon-absolute location" />
+          <LocationIcon class="icon-absolute" />
           <p class="date-weekday">THU</p>
           <p class="date-month">JULY</p>
           <p class="date-daynumber">11</p>
@@ -27,7 +27,7 @@ onMounted(() => {
       </RouterLink>
       <RouterLink to="#wedding">
         <div class="icon-relative">
-          <LocationIcon class="icon-absolute location" />
+          <LocationIcon class="icon-absolute" />
           <p class="date-weekday">FRI</p>
           <p class="date-month">JULY</p>
           <p class="date-daynumber">12</p>
@@ -36,7 +36,7 @@ onMounted(() => {
       </RouterLink>
       <RouterLink to="#day-two">
         <div class="icon-relative">
-          <LocationIcon class="icon-absolute location" />
+          <LocationIcon class="icon-absolute" />
           <p class="date-weekday">SAT</p>
           <p class="date-month">JULY</p>
           <p class="date-daynumber">13</p>
@@ -44,7 +44,10 @@ onMounted(() => {
         <p>Day Two</p>
       </RouterLink>
     </BasicNav>
+
+    <img src="@/assets/bordeaux.jpeg" class="landscape-image" />
   </div>
+
   <main>
     <MapStandard id="welcome" class="location-map" markerLocation="town" />
 
@@ -154,9 +157,15 @@ header {
   padding: 1rem;
 
   > h1 {
-    font-family: 'bevietnammedium';
-    font-size: 33px;
+    font-family: 'aliceregular';
+    font-size: 40px;
+    text-align: center;
   }
+}
+
+img.landscape-image {
+  margin-top: 2rem;
+  width: 100vw;
 }
 
 .location-map {

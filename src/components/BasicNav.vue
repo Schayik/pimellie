@@ -14,7 +14,7 @@ nav.basic-nav {
 
   > a {
     margin-top: 1rem;
-    height: 94px;
+    height: 80px;
 
     display: flex;
     align-items: center;
@@ -26,6 +26,10 @@ nav.basic-nav {
     line-height: 25px;
     color: black;
     text-decoration: none;
+
+    &:first-child {
+      margin-top: 0;
+    }
 
     > .icon-relative {
       position: relative;
@@ -40,24 +44,16 @@ nav.basic-nav {
 
       > .icon-absolute {
         position: absolute;
-        top: -4px;
+        top: -3px;
 
         width: 108px;
-        &.flowers {
-          height: 87px;
-        }
-        &.waving {
-          height: 90px;
-        }
-        &.location {
-          height: 87px;
-        }
+        height: 71px;
       }
 
       > p {
         color: white;
-        font-size: 18px;
-        line-height: 17px;
+        font-size: 16px;
+        line-height: 15px;
         z-index: 1;
 
         &.date-weekday,
@@ -73,6 +69,7 @@ nav.basic-nav {
     > p {
       font-family: 'bevietnammedium';
       margin-left: 1rem;
+      margin-top: 0;
     }
   }
 }

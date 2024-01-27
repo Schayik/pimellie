@@ -10,45 +10,45 @@ onMounted(() => {
 </script>
 
 <template>
-  <header>
-    <h1>The Schedule</h1>
-  </header>
+  <div class="mh-100">
+    <header>
+      <h1>The Schedule</h1>
+    </header>
 
-  <BasicNav>
-    <h3>Days</h3>
-    <RouterLink to="#welcome">
-      <div class="icon-relative">
-        <LocationIcon class="icon-absolute location" />
-        <p class="date-weekday">THU</p>
-        <p class="date-month">JULY</p>
-        <p class="date-daynumber">11</p>
-      </div>
-      <p>Welcome drinks</p>
-    </RouterLink>
-    <RouterLink to="#wedding">
-      <div class="icon-relative">
-        <LocationIcon class="icon-absolute location" />
-        <p class="date-weekday">FRI</p>
-        <p class="date-month">JULY</p>
-        <p class="date-daynumber">12</p>
-      </div>
-      <p>The Main Event</p>
-    </RouterLink>
-    <RouterLink to="#day-two">
-      <div class="icon-relative">
-        <LocationIcon class="icon-absolute location" />
-        <p class="date-weekday">SAT</p>
-        <p class="date-month">JULY</p>
-        <p class="date-daynumber">13</p>
-      </div>
-      <p>Day Two</p>
-    </RouterLink>
-  </BasicNav>
-
+    <BasicNav>
+      <RouterLink to="#welcome">
+        <div class="icon-relative">
+          <LocationIcon class="icon-absolute location" />
+          <p class="date-weekday">THU</p>
+          <p class="date-month">JULY</p>
+          <p class="date-daynumber">11</p>
+        </div>
+        <p>Welcome drinks</p>
+      </RouterLink>
+      <RouterLink to="#wedding">
+        <div class="icon-relative">
+          <LocationIcon class="icon-absolute location" />
+          <p class="date-weekday">FRI</p>
+          <p class="date-month">JULY</p>
+          <p class="date-daynumber">12</p>
+        </div>
+        <p>The Main Event</p>
+      </RouterLink>
+      <RouterLink to="#day-two">
+        <div class="icon-relative">
+          <LocationIcon class="icon-absolute location" />
+          <p class="date-weekday">SAT</p>
+          <p class="date-month">JULY</p>
+          <p class="date-daynumber">13</p>
+        </div>
+        <p>Day Two</p>
+      </RouterLink>
+    </BasicNav>
+  </div>
   <main>
-    <MapStandard class="location-map" markerLocation="town" />
+    <MapStandard id="welcome" class="location-map" markerLocation="town" />
 
-    <section id="welcome">
+    <section>
       <h3>Welcome Drinks</h3>
       <h4><i>For those already in West Cork!</i></h4>
       <p>
@@ -59,9 +59,9 @@ onMounted(() => {
       <p>Low key meetup</p>
     </section>
 
-    <MapStandard class="location-map" markerLocation="blairscove" />
+    <MapStandard id="wedding" class="location-map" markerLocation="blairscove" />
 
-    <section id="wedding">
+    <section>
       <h3>The Main Event</h3>
       <p>Friday, July 12<br />Blairscove House<br />Durrus, Cork, P75 FE44</p>
 
@@ -97,13 +97,11 @@ onMounted(() => {
             <td>Dinner bell</td>
           </tr>
 
-          
           <tr>
             <td>8.30PM</td>
             <td class="timetable-line"></td>
             <td>Party!</td>
           </tr>
-
 
           <tr>
             <td>2AM</td>
@@ -113,16 +111,15 @@ onMounted(() => {
               <span class="subtext"> Buses are available throughout the night</span>
             </td>
           </tr>
-
         </tbody>
       </table>
     </section>
 
-    <MapStandard class="location-map" markerLocation="ma-murphy" />
+    <MapStandard id="day-two" class="location-map" markerLocation="ma-murphy" />
 
-    <section id="day-two">
+    <section>
       <h3>Day Two</h3>
-      <h4> <i>For those still standing...</i></h4>
+      <h4><i>For those still standing...</i></h4>
       <p>Saturday, July 13<br />Ma Murphy's Bar<br />7 New Street, Bantry, Cork</p>
 
       <table>
@@ -144,7 +141,6 @@ onMounted(() => {
             <td class="timetable-line last"></td>
             <td>Close the night</td>
           </tr>
-
         </tbody>
       </table>
     </section>

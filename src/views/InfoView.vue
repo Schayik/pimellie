@@ -52,34 +52,47 @@ onMounted(() => {
       <h4>Dress Code</h4>
 
       <p>
-        We want our guests to be comfortable and relaxed on the day; but we would love to see everyone look their best! Cocktail attire is encouraged.
+        We want our guests to be comfortable and relaxed on the day; but we would love to see
+        everyone look their best! Cocktail attire is encouraged.
       </p>
 
-      <h4> Transport on the day of</h4>
+      <h4>Transport on the day</h4>
 
-      <p> Blairscove is approximately 10 minutes outside Bantry town. We will be collecting you on the party bus and returning you safely to Bantry afterwards. Buses will be running throughout the evening, taxis are few and far between in Bantry so please do not rely on them. Blairscove is not walkable as the roads are dark and unsafe with no footpaths, please don't walk home! </p>
+      <p>
+        Blairscove is approximately 10 minutes outside Bantry town. We will be collecting you on the
+        party bus and returning you safely to Bantry afterwards. Buses will be running throughout
+        the evening, taxis are few and far between in Bantry so please do not rely on them.
+        Blairscove is not walkable as the roads are dark and unsafe with no footpaths, please don't
+        walk home!
+      </p>
 
       <h4>Parking</h4>
 
       <p>
-        There is limited parking available at Blairscove, please let us know if you're planning to drive and we can ensure there is a spot for your car.
+        There is limited parking available at Blairscove, please let us know if you're planning to
+        drive and we can ensure there is a spot for your car.
       </p>
 
       <h4>Weather</h4>
 
       <p>
-        Even though you would expect a beautiful sunny day in mid July; please note that the weather in Ireland doesn't always play ball... We are hoping to have an outdoor ceremony and reception; alternative arrangements will be made if the sun doesn't shine!
+        Even though you would expect a beautiful sunny day in mid July; please note that the weather
+        in Ireland doesn't always play ball... We are hoping to have an outdoor ceremony and
+        reception; alternative arrangements will be made if the sun doesn't shine!
       </p>
 
-      <h4> Talen</h4>
+      <h4>Talen</h4>
 
-      <p> Gelukkig begrijpt en spreekt de meerderheid van onze familie en vrienden Engels, maar we zullen de hele dag beide talen gebruiken om al onze gewaardeerde gasten erbij te betrekken!
-        </p>
+      <p>
+        Gelukkig begrijpt en spreekt de meerderheid van onze familie en vrienden Engels, maar we
+        zullen de hele dag beide talen gebruiken om al onze gewaardeerde gasten erbij te betrekken!
+      </p>
 
       <h4>Gifts</h4>
 
       <p>
-        Your presence is the best present to us (really!); however if you would like to still give us a small gift, a donation to our honeymoon would be extremely appreciated!
+        Your presence is the best present to us (really!); however if you would like to still give
+        us a small gift, a donation to our honeymoon would be extremely appreciated!
       </p>
 
       <RouterLink class="back-to-top" to="#top">
@@ -132,38 +145,64 @@ onMounted(() => {
         <h3>Getting to West Cork</h3>
       </div>
 
-      <p> Part of the charm of West Cork lies in the fact that it is quite isolated. We would recommend car hire for your trip, but public transport is available; albeit limited!</p>
+      <p>
+        Part of the charm of West Cork lies in the fact that it is quite isolated. We would
+        recommend car hire for your trip, but public transport is available; albeit limited!
+      </p>
       <h4>Airports</h4>
 
-      <ul class="location-favourites">
+      <ul class="getting-there-airports">
+        <li><b>Cork</b></li>
         <li>
-          <span>•</span>
-          <p><b>Cork</b> <a href="https://www.google.com/maps/place/Cork+Airport/@51.8490591,-8.4924594,17z/data=!3m1!4b1!4m6!3m5!1s0x48448fafbf85db05:0xa48d32b2615271d4!8m2!3d51.8490591!4d-8.4898845!16zL20vMDFxeW1k?entry=ttu">Location</a><br/></p>
+          <span>•</span>1h 15min by car (<a
+            href="https://www.corkairport.com/to-from-the-airport/by-rental-car"
+          >
+            Car Hire </a
+          >)
         </li>
-              <ul> 
-                <li> 1h 15min by car (<a href="https://www.corkairport.com/to-from-the-airport/by-rental-car">Car Hire</a>)</li>
-                <li> 2h by bus from Cork City centre (<a href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1">Bus Eireann</a>)</li>
-              </ul>
         <li>
-          <span>•</span>
-          <p><b>Shannon</b> <a href="https://www.google.com/maps/place/Rineanna+South,+Shannon+Airport,+Co.+Clare,+Ireland/@52.6906379,-8.9365638,15z/data=!3m1!4b1!4m6!3m5!1s0x485b4012e627157b:0xfc4fad3bef169a68!8m2!3d52.69064!4d-8.91708!16s%2Fg%2F119wrbv70?entry=ttu">Location</a><br/></p>
-        </li>  
-              <ul> 
-              <li> 3h by car (<a href="https://www.shannonairport.ie/passengers/explore-ireland/car-hire/">Car Hire</a>)</li>
-              </ul>
-      
-        <li>
-          <span>•</span>
-          <p><b>Dublin</b> <a href="https://www.google.com/maps/search/dublin+airport/@53.4260791,-6.2499418,15z/data=!3m1!4b1?entry=ttu">Location</a><br/></p>
+          <span>•</span>2h by bus from Cork City centre (<a
+            href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1"
+            >Bus Eireann</a
+          >)
         </li>
-              <ul> 
-                <li> 4h 15min by car (<a href="https://www.dublinairport.com/to-from-the-airport/car-rental">Car Hire</a>)</li>
-                <li> 7h by bus (<a href="https://www.aircoach.ie/plan-journey/fares/route-704-cork-dublin-city-centre-and-dublin-airport">Air Coach</a> & <a href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1">Bus Eireann</a>)</li>
-              </ul>
+        <li><b>Shannon</b></li>
+        <li>
+          <span>•</span>3h by car (<a
+            href="https://www.shannonairport.ie/passengers/explore-ireland/car-hire/"
+            >Car Hire</a
+          >)
+        </li>
+
+        <li><b>Dublin</b></li>
+
+        <li>
+          <span>•</span>4h 15min by car (<a
+            href="https://www.dublinairport.com/to-from-the-airport/car-rental"
+            >Car Hire</a
+          >)
+        </li>
+        <li>
+          <span>•</span>7h by bus (<a
+            href="https://www.aircoach.ie/plan-journey/fares/route-704-cork-dublin-city-centre-and-dublin-airport"
+            >Air Coach</a
+          >
+          &
+          <a
+            href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1"
+            >Bus Eireann</a
+          >)
+        </li>
       </ul>
 
-      <h4> Ferries </h4>
-      <p> Roscoff, France to Cork <a href="https://www.brittany-ferries.ie/ferry-routes/ireland-france-ferries/cork-roscoff/about">Brittany Ferries</a></p>
+      <h4>Ferries</h4>
+      <p>
+        Roscoff, France to Cork
+        <a
+          href="https://www.brittany-ferries.ie/ferry-routes/ireland-france-ferries/cork-roscoff/about"
+          >Brittany Ferries</a
+        >
+      </p>
       <RouterLink class="back-to-top" to="#top">
         Back to topic overview<VectorUp class="ml-2" />
       </RouterLink>
@@ -237,6 +276,25 @@ ul.wedding-dates {
 }
 
 ul.location-favourites {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 8px;
+
+  > li {
+    display: flex;
+    > span {
+      margin-right: 8px;
+    }
+    > p {
+      margin-top: 0;
+    }
+    > a {
+      color: black;
+    }
+  }
+}
+
+ul.getting-there-airports {
   padding-left: 0;
   list-style: none;
   margin-top: 8px;

@@ -113,3 +113,7 @@ ul {
 .h-16 {
   height: 16rem;
 }
+
+.mh-100 {
+  min-height: 100vh;
+}

@@ -107,21 +107,20 @@ onMounted(() => {
       <ul class="location-favourites">
         <li>
           <span>•</span>
-          <p><a href="https://www.themaritime.ie/">The Maritime Hotel</a> <b>$$</b></p>
+          <p><a href="https://www.themaritime.ie/">The Maritime Hotel</a></p>
         </li>
 
         <li>
           <span>•</span>
-          <p><a href="https://www.westlodgehotel.ie/">The Westlodge Hotel</a> <b>$$</b></p>
+          <p><a href="https://www.westlodgehotel.ie/">The Westlodge Hotel</a></p>
         </li>
 
         <li>
           <span>•</span>
           <p>
-            Guest houses and holiday homes on
+            Holiday homes available on
             <a href="https://www.airbnb.ie/">AirBnB</a> or
             <a href="https://www.booking.com/">Booking.com</a>
-            <b> $</b>
           </p>
         </li>
       </ul>

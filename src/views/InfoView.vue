@@ -60,9 +60,8 @@ onMounted(() => {
       <p>
         Blairscove is approximately 10 minutes outside Bantry town. We will be collecting you on the
         party bus and returning you safely to Bantry afterwards. Buses will be running throughout
-        the evening, taxis are few and far between in Bantry so please do not rely on them.
-        Blairscove is not walkable as the roads are dark and unsafe with no footpaths, please don't
-        walk home!
+        the evening, taxis are rarely available in Bantry so please don't rely on them. Blairscove
+        is not walkable as the roads are dark and unsafe with no footpaths, please don't walk home!
       </p>
 
       <h4>Parking</h4>
@@ -75,8 +74,8 @@ onMounted(() => {
       <h4>Weather</h4>
 
       <p>
-        Even though you would expect a beautiful sunny day in mid July; please note that the weather
-        in Ireland doesn't always play ball... We are hoping to have an outdoor ceremony and
+        Even though you would expect a beautiful sunny day in mid July; but as we know, the weather
+        in Ireland doesn't always play ball! We are hoping to have an outdoor ceremony and
         reception; alternative arrangements will be made if the sun doesn't shine!
       </p>
 
@@ -119,7 +118,7 @@ onMounted(() => {
         <li>
           <span>•</span>
           <p>
-            Guest houses and holiday homes available through
+            Guest houses and holiday homes on
             <a href="https://www.airbnb.ie/">AirBnB</a> or
             <a href="https://www.booking.com/">Booking.com</a>
             <b> $</b>
@@ -143,46 +142,45 @@ onMounted(() => {
       <h4>Airports</h4>
 
       <ul class="getting-there-airports">
-        <li><b>Cork</b></li>
+        <li>Cork</li>
         <li>
-          <span>•</span>1h 15min by car (<a
+          <span>•</span>1h 15min by car -&nbsp;<a
             href="https://www.corkairport.com/to-from-the-airport/by-rental-car"
+            >Car Hire</a
           >
-            Car Hire </a
-          >)
         </li>
         <li>
-          <span>•</span>2h by bus from Cork City centre (<a
+          <span>•</span>2h by bus from Cork City centre -&nbsp;<a
             href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1"
             >Bus Eireann</a
-          >)
+          >
         </li>
-        <li><b>Shannon</b></li>
+        <li>Shannon</li>
         <li>
-          <span>•</span>3h by car (<a
+          <span>•</span>3h by car -&nbsp;<a
             href="https://www.shannonairport.ie/passengers/explore-ireland/car-hire/"
             >Car Hire</a
-          >)
+          >
         </li>
 
-        <li><b>Dublin</b></li>
+        <li>Dublin</li>
 
         <li>
-          <span>•</span>4h 15min by car (<a
+          <span>•</span>4h 15min by car -&nbsp;<a
             href="https://www.dublinairport.com/to-from-the-airport/car-rental"
             >Car Hire</a
-          >)
+          >
         </li>
         <li>
-          <span>•</span>7h by bus (<a
+          <span>•</span>7h by bus -&nbsp;<a
             href="https://www.aircoach.ie/plan-journey/fares/route-704-cork-dublin-city-centre-and-dublin-airport"
             >Air Coach</a
           >
-          &
+          &nbsp;&&nbsp;
           <a
             href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1"
             >Bus Eireann</a
-          >)
+          >
         </li>
       </ul>
 

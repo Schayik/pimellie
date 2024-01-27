@@ -11,10 +11,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="mh-100">
-    <header id="top">
-      <h1>The Details</h1>
-    </header>
+  <header>
+    <div></div>
+    <h1>The Details</h1>
 
     <BasicNav>
       <RouterLink to="#wedding">
@@ -38,7 +37,7 @@ onMounted(() => {
     </BasicNav>
 
     <img src="@/assets/brewdog-563x422.png" class="landscape-image" />
-  </div>
+  </header>
 
   <main>
     <section id="wedding">
@@ -203,9 +202,14 @@ onMounted(() => {
 
 <style scoped lang="scss">
 header {
-  padding: 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   > h1 {
+    padding: 1rem;
+
     font-family: 'aliceregular';
     font-size: 40px;
     text-align: center;
@@ -222,7 +226,6 @@ section {
 }
 
 img.landscape-image {
-  margin-top: 1rem;
   width: 100%;
 }
 

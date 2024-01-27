@@ -10,10 +10,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="mh-100">
-    <header>
-      <h1>The Schedule</h1>
-    </header>
+  <header>
+    <div></div>
+    <h1>The Schedule</h1>
 
     <BasicNav>
       <RouterLink to="#welcome">
@@ -46,7 +45,7 @@ onMounted(() => {
     </BasicNav>
 
     <img src="@/assets/bordeaux-563x422.png" class="landscape-image" />
-  </div>
+  </header>
 
   <main>
     <MapStandard id="welcome" class="location-map" markerLocation="town" />
@@ -154,9 +153,14 @@ onMounted(() => {
 
 <style scoped lang="scss">
 header {
-  padding: 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   > h1 {
+    padding: 1rem;
+
     font-family: 'aliceregular';
     font-size: 40px;
     text-align: center;
@@ -164,7 +168,6 @@ header {
 }
 
 img.landscape-image {
-  margin-top: 1rem;
   width: 100%;
 }
 

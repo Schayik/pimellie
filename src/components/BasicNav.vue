@@ -73,5 +73,27 @@ nav.basic-nav {
       margin-top: 0;
     }
   }
+
+  @media screen and (max-width: 26rem) {
+    > a {
+      height: 60px;
+      > .icon-relative {
+        flex: 0 0 90px;
+        > .icon-absolute {
+          top: -12px;
+
+          width: 90px;
+          height: 60px;
+        }
+        > p {
+          font-size: 13px;
+        }
+      }
+
+      > p {
+        font-size: 16px;
+      }
+    }
+  }
 }
 </style>

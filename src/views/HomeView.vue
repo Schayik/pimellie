@@ -2,7 +2,6 @@
 import BasicNav from '@/components/BasicNav.vue'
 import Cheers from '@/components/icons/IconCheers.vue'
 import Chemie from '@/components/icons/IconChemie.vue'
-import Flask from '@/components/icons/IconFlask.vue'
 
 import { onMounted } from 'vue'
 onMounted(() => {
@@ -17,17 +16,9 @@ onMounted(() => {
   </header>
 
   <main>
-    <section>
-      <Flask class="chemy-icon" />
-      <p class="mt-2">
-        An Irish Brit and a Dutchie<br />
-        Working as chemists<br />
-        They study, they measure, they graph<br />
-        They like, they love, they laugh<br />
-        Exactly what they've missed<br />
-        A perfect chemistry<br />
-      </p>
-      <h3 class="mt-2">Nijmegen, Nederland, 2017</h3>
+    <section class="nijmegen">
+      <img src="@/assets/nijmegen.jpeg" alt="Nijmegen, Nederland, 2017" />
+      <h3 class="mt-1">Nijmegen, Nederland, 2017</h3>
     </section>
 
     <section class="roys-peak-close">
@@ -113,6 +104,12 @@ section {
     line-height: auto;
     color: black;
     text-align: center;
+  }
+
+  &.nijmegen {
+    img {
+      width: 100%;
+    }
   }
 
   &.roys-peak-close {

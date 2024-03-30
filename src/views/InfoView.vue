@@ -52,7 +52,7 @@ onMounted(() => {
 
       <p>
         We want our guests to be comfortable and relaxed on the day; but we would love to see
-        everyone look their best! Cocktail attire is encouraged.
+        everyone look their best! Cocktail attire or Tenue de Ville is encouraged.
       </p>
 
       <h4>Transport on the day</h4>
@@ -143,42 +143,58 @@ onMounted(() => {
       <ul class="getting-there-airports">
         <li>Cork</li>
         <li>
-          <span>•</span>1h 15min by car -&nbsp;<a
-            href="https://www.corkairport.com/to-from-the-airport/by-rental-car"
-            >Car Hire</a
+          <span>•</span
+          ><span
+            >1h 15min by car -&nbsp;<a
+              href="https://www.corkairport.com/to-from-the-airport/by-rental-car"
+              >Car Hire</a
+            ></span
           >
         </li>
         <li>
-          <span>•</span>2h by bus from Cork City centre -&nbsp;<a
-            href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1"
-            >Bus Eireann</a
+          <span>•</span>
+          <span
+            >2h by bus from Cork City centre -&nbsp;
+            <a
+              href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1"
+              >Bus Eireann</a
+            ></span
           >
         </li>
         <li>Shannon</li>
         <li>
-          <span>•</span>3h by car -&nbsp;<a
-            href="https://www.shannonairport.ie/passengers/explore-ireland/car-hire/"
-            >Car Hire</a
+          <span>•</span
+          ><span
+            >3h by car -&nbsp;<a
+              href="https://www.shannonairport.ie/passengers/explore-ireland/car-hire/"
+              >Car Hire</a
+            ></span
           >
         </li>
 
         <li>Dublin</li>
 
         <li>
-          <span>•</span>4h 15min by car -&nbsp;<a
-            href="https://www.dublinairport.com/to-from-the-airport/car-rental"
-            >Car Hire</a
+          <span>•</span
+          ><span
+            >4h 15min by car -&nbsp;<a
+              href="https://www.dublinairport.com/to-from-the-airport/car-rental"
+              >Car Hire</a
+            ></span
           >
         </li>
         <li>
-          <span>•</span>7h by bus -&nbsp;<a
-            href="https://www.aircoach.ie/plan-journey/fares/route-704-cork-dublin-city-centre-and-dublin-airport"
-            >Air Coach</a
-          >
-          &nbsp;&&nbsp;
-          <a
-            href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1"
-            >Bus Eireann</a
+          <span>•</span
+          ><span
+            >7h by bus -&nbsp;<a
+              href="https://www.aircoach.ie/plan-journey/fares/route-704-cork-dublin-city-centre-and-dublin-airport"
+              >Air Coach</a
+            >
+            &nbsp;&&nbsp;
+            <a
+              href="https://www.buseireann.ie/inner.php?id=406&form-view-timetables-from=&form-view-timetables-to=&form-view-timetables-route=236&form-view-timetables-submit=1"
+              >Bus Eireann</a
+            ></span
           >
         </li>
       </ul>

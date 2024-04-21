@@ -16,9 +16,19 @@ onMounted(() => {
   </header>
 
   <main>
+    <BasicNav class="mt-2">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScnZSZgcjCkUiuSRODqgPzdYmSIAT_TipBUB21cM2daAwcTrg/viewform?usp=sf_link">
+        <div class="icon-relative">
+          <Chemie class="icon-absolute flowers" />
+        </div>
+        <p>RSVP</p>
+      </a>
+    </BasicNav>
+
     <section class="nijmegen">
-      <img src="@/assets/nijmegen.jpeg" alt="Nijmegen, Nederland, 2017" />
-      <h3 class="mt-1">Nijmegen, Nederland, 2017</h3>
+      <h2 >We met ...</h2>
+      <h3>Nijmegen, Nederland, 2017</h3>
+      <img class="mt-1" src="@/assets/nijmegen.png" alt="Nijmegen, Nederland, 2017" />
     </section>
 
     <section class="roys-peak-close">

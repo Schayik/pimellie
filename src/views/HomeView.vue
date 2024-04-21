@@ -28,7 +28,7 @@ onMounted(() => {
     <section class="img-width-100">
       <h2 >We met ...</h2>
       <h3>Nijmegen, Nederland, 2017</h3>
-      <img class="mt-1" src="@/assets/nijmegen.png" alt="Nijmegen, Nederland, 2017" />
+      <img class="mt-1" src="@/assets/nijmegen-563x563.png" alt="Nijmegen, Nederland, 2017" />
     </section>
 
     <section class="roys-peak-close">
@@ -47,7 +47,7 @@ onMounted(() => {
         with our family and dearest friends
       </p>
       <h3 class="mt-2">West Cork, Ireland, 2024</h3>
-      <img class="mt-1" src="@/assets/blairscove.png" alt="West Cork, Ireland, 2024" />
+      <img class="mt-1" src="@/assets/blairscove-563x422.png" alt="West Cork, Ireland, 2024" />
     </section>
 
     <BasicNav>

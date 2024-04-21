@@ -21,11 +21,11 @@ onMounted(() => {
         <div class="icon-relative">
           <Chemie class="icon-absolute flowers" />
         </div>
-        <p>RSVP</p>
+        <p class="rsvp">RSVP</p>
       </a>
     </BasicNav>
 
-    <section class="nijmegen">
+    <section class="img-width-100">
       <h2 >We met ...</h2>
       <h3>Nijmegen, Nederland, 2017</h3>
       <img class="mt-1" src="@/assets/nijmegen.png" alt="Nijmegen, Nederland, 2017" />
@@ -40,13 +40,14 @@ onMounted(() => {
       <h3 class="mt-2">Roys Peak, New Zealand, 2023</h3>
     </section>
 
-    <section>
+    <section class="img-width-100">
       <h2>Our wedding</h2>
       <p>
         Time to celebrate<br />
         with our family and dearest friends
       </p>
       <h3 class="mt-2">West Cork, Ireland, 2024</h3>
+      <img class="mt-1" src="@/assets/blairscove.png" alt="West Cork, Ireland, 2024" />
     </section>
 
     <BasicNav>
@@ -93,6 +94,10 @@ header {
   }
 }
 
+.rsvp {
+  font-size: 30px;
+}
+
 section {
   padding: 4rem 1rem;
 
@@ -116,7 +121,7 @@ section {
     text-align: center;
   }
 
-  &.nijmegen {
+  &.img-width-100 {
     img {
       width: 100%;
     }

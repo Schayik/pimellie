@@ -319,7 +319,7 @@ ul.getting-there-airports {
     > p {
       margin-top: 0;
     }
-    > a {
+    > span > a {
       color: black;
     }
   }

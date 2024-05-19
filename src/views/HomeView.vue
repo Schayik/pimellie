@@ -17,7 +17,9 @@ onMounted(() => {
 
   <main>
     <BasicNav class="mt-2">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScnZSZgcjCkUiuSRODqgPzdYmSIAT_TipBUB21cM2daAwcTrg/viewform?usp=sf_link">
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLScnZSZgcjCkUiuSRODqgPzdYmSIAT_TipBUB21cM2daAwcTrg/viewform?usp=sf_link"
+      >
         <div class="icon-relative">
           <Chemie class="icon-absolute flowers" />
         </div>
@@ -26,7 +28,7 @@ onMounted(() => {
     </BasicNav>
 
     <section class="img-width-100">
-      <h2 >We met ...</h2>
+      <h2>We met ...</h2>
       <h3>Nijmegen, Nederland, 2017</h3>
       <img class="mt-1" src="@/assets/nijmegen-563x563.png" alt="Nijmegen, Nederland, 2017" />
     </section>

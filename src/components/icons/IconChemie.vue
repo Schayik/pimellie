@@ -5,7 +5,7 @@
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M50.0001 37.5334L49.0001 58.5334C49 59.3619 47.6569 60.0334 46 60.0334C44.3432 60.0334 43 59.3619 43 58.5334C43 57.705 44.3432 57.0334 46 57.0334C46.1581 57.0334 46.3133 57.0396 46.4648 57.0513L46.0001 37.5334H44.5L44.8523 30.1359C43.3287 31.9506 41.8763 33.376 41 34.0333L40 33.0332C43.2919 29.036 45.0357 25.5917 46.1675 23.0642L47.5 18.5334L51 18.0334L52.5 37.5334L50.0001 37.5334Z"
-        fill="black"
+        fill="#00434B"
       />
       <path
         fill-rule="evenodd"
@@ -132,8 +132,8 @@
         y2="39"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#B80884" />
-        <stop offset="1" stop-color="#2C59AE" />
+        <stop stop-color="#6A0033" />
+        <stop offset="1" stop-color="#00376A" />
       </linearGradient>
       <clipPath id="clip0_132_1293">
         <rect width="72" height="60" fill="white" />

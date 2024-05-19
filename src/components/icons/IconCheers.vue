@@ -48,7 +48,7 @@
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M50.5 39L49.5 58.5C49.5 59.3284 48.2688 60 46.75 60C45.2312 60 44 59.3284 44 58.5C44 57.6716 45.2312 57 46.75 57C46.8381 57 46.9252 57.0023 47.0111 57.0067L47 57L46 37H45.5C45.3333 32.6667 44.5 26 44.5 26C43.5 28 38 32 34.5 33.5L34 32.5C37.5 30 41.5 26 44 20.5L48 19L50.5 32L53 19C53 19 60.5 22.5 62 22.5C63.5 22.5 66.6667 21.5 68 21V22.5L67.9999 22.5001C66.3332 23.5001 63 25.5 62 25.5C60.7792 25.5 58.8961 24.8376 57.4287 24.3215L57.4286 24.3215C57.093 24.2034 56.7792 24.0931 56.5 24L55.5 37H55L54 57L53.9889 57.0067C54.0748 57.0023 54.1619 57 54.25 57C55.7688 57 57 57.6716 57 58.5C57 59.3284 55.7688 60 54.25 60C52.7312 60 51.5 59.3284 51.5 58.5L50.5 39Z"
-        fill="black"
+        fill="#00434B"
       />
       <path
         fill-rule="evenodd"
@@ -158,8 +158,8 @@
         y2="28"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#B80884" />
-        <stop offset="1" stop-color="#2C59AE" />
+        <stop stop-color="#6A0033" />
+        <stop offset="1" stop-color="#00376A" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_132_1408"
@@ -169,8 +169,8 @@
         y2="25"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#B80884" />
-        <stop offset="1" stop-color="#2C59AE" />
+        <stop stop-color="#6A0033" />
+        <stop offset="1" stop-color="#00376A" />
       </linearGradient>
       <clipPath id="clip0_132_1408">
         <rect width="72" height="60" fill="white" />

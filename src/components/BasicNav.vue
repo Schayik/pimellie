@@ -45,10 +45,10 @@ nav.basic-nav {
 
       > .icon-absolute {
         position: absolute;
-        top: -3px;
+        top: -7px;
 
         width: 108px;
-        height: 71px;
+        height: 75px;
       }
 
       > p {
